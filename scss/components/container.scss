@@ -1,0 +1,27 @@
+@import "../theme/variables";
+
+.container {
+  .content {
+    max-width: 1440px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding: 0 5.21%;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: $spacing-big;
+    padding-bottom: $spacing-big;
+
+    .title {
+      text-align: center;
+      margin-bottom: $spacing-big - 10;
+
+      h2 {
+        margin-top: -10px;
+        margin-bottom: 5px;
+        letter-spacing: 3px;
+      }
+    }
+  }
+}

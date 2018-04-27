@@ -1,0 +1,19 @@
+@import "../theme/variables";
+
+#about {
+  .column-wrapper {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: stretch;
+    background-color: $_color-gray;
+
+    .column {
+      width: 33%;
+      text-align: left;
+        padding: $spacing-small;
+      // max-width: 450px;
+      // margin: 0 $spacing-small;
+    }
+  }
+}

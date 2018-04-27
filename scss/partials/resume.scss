@@ -1,0 +1,63 @@
+@import "../theme/variables";
+
+#resume {
+  .column-wrapper {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: stretch;
+
+    .column {
+      width: 45%;
+      text-align: left;
+      max-width: 450px;
+      margin: 0 $spacing-small;
+
+      .column-title,
+      .column-tile {
+        padding: $spacing-small;
+        margin-bottom: $spacing-small - 10px;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+
+      .column-title {
+        text-align: center;
+        background-color: $_color-gray;
+        height: 25px;
+      }
+
+      .column-tile {
+        background-color: $_color-light-gray;
+        border-top: 8px solid $_color-blue;
+        height: 150px;
+
+        .column-tile-institution {
+          font-size: 20px;
+          font-weight: 700;
+          text-transform: uppercase;
+        }
+
+        .column-tile-title,
+        .column-tile-date {
+          font-size: 18px;
+          font-weight: 300;
+          margin-top: 3px;
+        }
+
+        .column-tile-description {
+          margin-top: $spacing-small - 10px;
+          line-height: 19px;
+        }
+      }
+
+      &:first-child {
+        .column-tile {
+          border-top-color: $_color-pink;
+        }
+      }
+    }
+  }
+}

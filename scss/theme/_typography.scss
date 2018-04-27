@@ -1,0 +1,44 @@
+@import "./variables";
+
+body {
+  font-family: $font-primary;
+  color: $color-text-dark;
+  font-size: 16px;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1 {
+  color: $color-text-dark;
+  font-family: $font-heading;
+  font-weight: 400;
+  font-size: 60px;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+h2 {
+  color: $color-text-dark;
+  font-family: $font-heading;
+  font-weight: 400;
+  font-size: 40px;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+h3 {
+  color: $color-text-dark;
+  font-family: $font-primary;
+  font-weight: 300;
+  font-size: 25px;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+h4 {
+  color: $color-text-dark;
+  font-family: $font-primary;
+  font-weight: 400;
+  font-size: 20px;
+  margin: 0;
+}

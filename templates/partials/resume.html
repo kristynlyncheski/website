@@ -1,0 +1,18 @@
+{% extends "../components/container.html" %}
+
+{% block id %}resume{% endblock %}
+
+{% block title %}
+  Resume
+{% endblock %}
+
+{% block subheading %}
+  More about my past
+{% endblock %}
+
+{% block section %}
+  <div class="column-wrapper">
+    {% include "./resume-employment.html" %}
+    {% include "./resume-education.html" %}
+  </div>
+{% endblock %}

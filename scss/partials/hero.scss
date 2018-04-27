@@ -1,0 +1,49 @@
+@import "../theme/variables";
+
+#hero {
+  background-image: url('../img/hero.jpg');
+  background-color: $_color-pink;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .content {
+    text-align: left;
+    padding-top: $spacing-big * 1.5;
+    padding-bottom: $spacing-big * 3;
+
+    .hero-box {
+      background-color: $_color-white;
+      padding: $spacing-big;
+      text-align: center;
+      display: inline-block;
+
+      h1 {
+        margin-bottom: $spacing-small;
+        letter-spacing: 8px;
+        line-height: 72px;
+        position: relative;
+
+        .idot {
+          width: 12px;
+          height: 12px;
+          border-radius: 50%;
+          background-color: #090909;
+          position: absolute;
+          top: -3px;
+          left: 35%;
+
+          &:last-child {
+            top: auto;
+            bottom: 62px;
+            left: auto;
+            right: 4.55%;
+          }
+        }
+      }
+
+    }
+  }
+
+
+}

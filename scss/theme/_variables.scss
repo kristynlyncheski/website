@@ -1,0 +1,36 @@
+// fonts
+$font-heading: 'Francois One', sans-serif;
+$font-primary: 'Josefin Sans', sans-serif;
+
+//****************************************
+//  INTERNAL  PALETTE (Descriptive)
+//****************************************
+
+$_color-white: #faf9f9;
+$_color-gray: #e8e3e3;
+$_color-pink: #DEBAC0;
+$_color-blue: #5C9EAD;
+$_color-black: #090909;
+
+$_color-light-gray: #f5f3f3;
+
+//****************************************
+//  EXTERNAL COLOR PALETTE (Semantic)
+//****************************************
+//
+// $color-background-dark: $_color-gray-dark;
+// $color-background-gray: $_color-gray-medium;
+// $color-background-white: $_color-white;
+// $color-background-green: $_color-green-medium;
+//
+// $color-background-sidebar: $_color-gray-light;
+//
+$color-text-dark: $_color-black;
+$color-text-white: $_color-white;
+//
+// $color-border-dark: $_color-gray-dark;
+
+
+// spacing
+$spacing-big: 50px;
+$spacing-small: $spacing-big / 2;
