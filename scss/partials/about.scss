@@ -11,9 +11,57 @@
     .column {
       width: 33%;
       text-align: left;
-        padding: $spacing-small;
-      // max-width: 450px;
-      // margin: 0 $spacing-small;
+      padding: $spacing-big - 10px;
+
+      &:nth-child(2) {
+        background-image: url('../img/kristyn-lyncheski.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      h3 {
+        margin-bottom: $spacing-small / 2;
+      }
+    }
+  }
+
+  .profile-content {
+    h5 {
+      margin-bottom: 5px;
+
+      &:first-child {
+        margin-top: 22px;
+      }
+    }
+
+    div {
+      margin-bottom: $spacing-small + 10px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  .skills-content {
+    .about-category {
+      h5 {
+        background-color: $_color-white;
+        padding: 12px 20px 10px;
+        border-left: 8px solid $_color-blue;
+      }
+
+      .about-skills {
+        margin: ($spacing-small / 2) 0 $spacing-small 0;
+        padding: 0 20px 0 28px;
+      }
+
+      &:last-child {
+        .about-skills {
+          margin-bottom: 0;
+        }
+      }
     }
   }
 }
