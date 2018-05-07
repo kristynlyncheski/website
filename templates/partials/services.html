@@ -1,5 +1,7 @@
 {% extends "../components/container.html" %}
 
+{% block id %}services{% endblock %}
+
 {% block title %}
   Services
 {% endblock %}
@@ -9,7 +11,8 @@
 {% endblock %}
 
 {% block section %}
-  <div>
-    Services section will go here
-  </div>
+<div class="row-wrapper">
+  {% include "./services-skills.html" %}
+  {% include "./services-deliverables.html" %}
+</div>
 {% endblock %}

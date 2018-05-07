@@ -1,0 +1,31 @@
+@import "../theme/variables";
+
+#services {
+  .row-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+    .square {
+      width: 30%;
+      background-color: $_color-gray;
+      border-top: 8px solid $_color-blue;
+      margin-bottom: $spacing-small;
+
+      .square-content {
+        padding: $spacing-small $spacing-big ($spacing-big * 2);
+
+        .square-title {
+          margin-top: $spacing-small / 2;
+          margin-bottom: $spacing-small;
+        }
+      }
+
+      &:first-child,
+      &:nth-child(2),
+      &:nth-child(3) {
+        border-top-color: $_color-pink;
+      }
+    }
+  }
+}
