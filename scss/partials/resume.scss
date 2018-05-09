@@ -1,17 +1,16 @@
-@import "../theme/variables";
+@import "../theme/abstracts";
 
 #resume {
   .column-wrapper {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
-    align-items: stretch;
+    // display: flex;
+    // flex-flow: row nowrap;
+    // justify-content: center;
+    // align-items: stretch;
 
     .column {
-      width: 45%;
       text-align: left;
-      max-width: 450px;
-      margin: 0 $spacing-small;
+      // max-width: 450px;
+      // margin: 0 $spacing-small;
 
       .column-title,
       .column-tile {
@@ -54,6 +53,10 @@
       }
 
       &:first-child {
+        @media #{$gl-xs-only} {
+          margin-bottom: $spacing-small;
+        }
+
         .column-tile {
           border-top-color: $_color-pink;
         }

@@ -1,3 +1,5 @@
+@import './functions';
+
 // fonts
 $font-heading: 'Francois One', sans-serif;
 $font-primary: 'Josefin Sans', sans-serif;
@@ -34,3 +36,55 @@ $color-text-white: $_color-white;
 // spacing
 $spacing-big: 50px;
 $spacing-small: $spacing-big / 2;
+
+
+
+//************************
+//  GRID VARIABLES
+//************************
+$margin-spacing: 5.21%;
+$module-spacing: 30px;
+
+$gl-gridName: grid;
+$gl-colName: col;
+$gl-gutter: 20px;
+$gl-gutter-sm: $gl-gutter;
+$gl-gutter-md: $gl-gutter;
+$gl-gutter-lg: $gl-gutter;
+$gl-gutter-xl: $gl-gutter;
+
+// Breakpoint values
+$gl-xs-px: 320px;
+$gl-sm-px: 480px;
+$gl-md-px: 768px;
+$gl-lg-px: 1024px;
+$gl-max-px: 1440px;
+
+// phone: default, so has no min
+$gl-xs: "screen and (min-width: 0)" !default;
+// phone-only
+$gl-xs-only: "screen and (max-width: #{pxToEm($gl-sm-px)})" !default;
+
+// phablet
+$gl-sm: "screen and (min-width: #{pxToEm($gl-sm-px + 1)})" !default;
+// phablet-only
+$gl-sm-only: "screen and (min-width: #{pxToEm($gl-sm-px + 1)}) and (max-width: #{pxToEm($gl-md-px)})" !default;
+
+// phone and phablet
+$gl-xs-sm: "screen and (min-width: 0) and (max-width: #{pxToEm($gl-md-px)})" !default;
+
+// tablet
+$gl-md: "screen and (min-width: #{pxToEm($gl-md-px + 1)})" !default;
+// tablet-only
+$gl-md-only: "screen and (min-width: #{pxToEm($gl-md-px + 1)}) and (max-width: #{pxToEm($gl-lg-px)})" !default;
+
+// phone, phablet, and tablet
+$gl-xs-md: "screen and (min-width: 0) and (max-width: #{pxToEm($gl-lg-px)})" !default;
+
+// desktop
+$gl-lg: "screen and (min-width: #{pxToEm($gl-lg-px + 1)})" !default;
+// desktop only
+$gl-lg-only: "screen and (min-width: #{pxToEm($gl-lg-px + 1)}) and (max-width: #{pxToEm($gl-max-px)})" !default;
+
+// extended
+$gl-max: "screen and (min-width: #{pxToEm($gl-max-px + 1)})" !default;

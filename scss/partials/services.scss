@@ -1,19 +1,14 @@
-@import "../theme/variables";
+@import "../theme/abstracts";
 
 #services {
   .row-wrapper {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-
     .square {
-      width: 30%;
-      background-color: $_color-gray;
-      border-top: 8px solid $_color-blue;
       margin-bottom: $spacing-small;
 
       .square-content {
         padding: $spacing-small $spacing-big ($spacing-big * 2);
+        background-color: $_color-gray;
+        border-top: 8px solid $_color-blue;
 
         .square-title {
           margin-top: $spacing-small / 2;
@@ -24,7 +19,28 @@
       &:first-child,
       &:nth-child(2),
       &:nth-child(3) {
-        border-top-color: $_color-pink;
+        .square-content {
+          border-top-color: $_color-pink;
+        }
+      }
+
+      &:nth-child(4) {
+        @media #{$gl-md} {
+          margin-bottom: 0;
+        }
+      }
+
+
+      &:nth-child(5) {
+        @media #{$gl-sm} {
+          margin-bottom: 0;
+        }
+      }
+
+      &:last-child {
+        @media #{$gl-xs} {
+          margin-bottom: 0;
+        }
       }
     }
   }

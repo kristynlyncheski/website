@@ -1,17 +1,9 @@
-@import "../theme/variables";
+@import "../theme/abstracts";
 
 .container {
   .content {
-    max-width: 1440px;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: auto !important;
-    margin-right: auto !important;
-    padding: 0 5.21%;
-    text-align: center;
-    margin: 0 auto;
-    padding-top: $spacing-big;
-    padding-bottom: $spacing-big;
+    @include content-container();
+    @include container-padding();
 
     .title {
       text-align: center;
