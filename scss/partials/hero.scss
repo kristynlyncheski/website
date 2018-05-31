@@ -11,39 +11,60 @@
     text-align: left;
     padding-top: $spacing-big * 1.5;
     padding-bottom: $spacing-big * 3;
+    
+    @media #{$gl-xs-sm} {
+      padding-top: $spacing-small;
+    }
 
     .hero-box {
       background-color: $_color-white;
       padding: $spacing-big;
       text-align: center;
       display: inline-block;
+      
+      @media #{$gl-xs-sm} {
+        padding: $spacing-small + 5;
+      }
 
       h1 {
         margin-bottom: $spacing-small;
         letter-spacing: 8px;
         line-height: 72px;
-        position: relative;
+        // position: relative;
+        
+        @media #{$gl-xs-sm} {
+          font-size: 40px;
+          letter-spacing: 5px;
+          line-height: 48px;
+        }
+        
+        .i {
+          position: relative;
+        }
 
         .idot {
           width: 12px;
           height: 12px;
           border-radius: 50%;
-          background-color: #090909;
+          background-color: $color-text-dark;
           position: absolute;
-          top: -3px;
-          left: 35%;
-
-          &:last-child {
-            top: auto;
-            bottom: 62px;
-            left: auto;
-            right: 4.55%;
+          top: 4px;
+          left: -2px;
+          
+          @media #{$gl-xs-sm} {
+            width: 8px;
+            height: 8px;
+            top: 3px;
+            left: -1px;
           }
         }
       }
 
+      h4 {
+        @media #{$gl-xs-sm} {
+          font-size: 16px;
+        }
+      }
     }
   }
-
-
 }

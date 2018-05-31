@@ -9,8 +9,19 @@
         padding: $spacing-small $spacing-big ($spacing-big * 2);
         background-color: $_color-gray;
         border-top: 8px solid $_color-blue;
+        height: 100%;
+        
+        @media #{$gl-xs-only} {
+          padding-bottom: $spacing-small + 5;
+        }
+        
+        
+        .icon-wrapper {
+          margin: 0 auto;
+        }
 
         .square-title {
+          text-align: center;
           margin-top: $spacing-small / 2;
           margin-bottom: $spacing-small;
         }
@@ -21,6 +32,10 @@
       &:nth-child(3) {
         .square-content {
           border-top-color: $_color-pink;
+          
+          .icon-wrapper {
+            background-color: $_color-pink;
+          }
         }
       }
 
@@ -29,7 +44,6 @@
           margin-bottom: 0;
         }
       }
-
 
       &:nth-child(5) {
         @media #{$gl-sm} {
