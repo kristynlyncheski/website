@@ -6,15 +6,8 @@
   }
   
   .column-wrapper {
-    // display: flex;
-    // flex-flow: row nowrap;
-    // justify-content: center;
-    // align-items: stretch;
-
     .column {
       text-align: left;
-      // max-width: 450px;
-      // margin: 0 $spacing-small;
 
       .column-title {
         padding: ($spacing-small / 2) $spacing-small;
@@ -22,7 +15,6 @@
 
         text-align: center;
         background-color: $_color-gray;
-        // height: 25px;
         display: flex;
         flex-flow: row nowrap;
         justify-content: center;
@@ -44,8 +36,6 @@
 
         background-color: $_color-light-gray;
         border-top: 8px solid $_color-blue;
-        // height: 150px;
-        // min-height: 250px;
         
         @media #{$gl-xs-sm} {
           min-height: 0;
@@ -75,7 +65,7 @@
       }
 
       &:first-child {
-        @media #{$gl-xs-only} {
+        @media #{$gl-xs-sm} {
           margin-bottom: $spacing-small;
         }
 

@@ -1,7 +1,15 @@
 @import "../theme/abstracts";
 
 #contact {
+  background-color: $_color-gray;
+  
   .content {
-    padding-top: 0;
+    
   }
+}
+
+
+/* TYPEFORM */
+.screen .content-wrapper .content .text {
+  font-family: $font-primary !important;
 }

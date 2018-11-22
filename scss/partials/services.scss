@@ -6,7 +6,7 @@
       margin-bottom: $spacing-small;
 
       .square-content {
-        padding: $spacing-small $spacing-big ($spacing-big * 2);
+        padding: $spacing-small $spacing-small $spacing-big;
         background-color: $_color-gray;
         border-top: 8px solid $_color-blue;
         height: 100%;

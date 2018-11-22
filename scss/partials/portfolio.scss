@@ -25,7 +25,7 @@
     }
     
     .second-column {
-      @media #{$gl-xs-md} {
+      @media #{$gl-xs-sm} {
         // max-height: 400px;
         overflow: hidden;
         margin-bottom: 10px !important;
@@ -53,10 +53,26 @@
     position: relative;
     cursor: default;
     
-    @media #{$gl-xs-md} {
+    @media #{$gl-xs-sm} {
       max-height: 400px;
       overflow: hidden;
       margin-bottom: 20px !important;
+    }
+    
+    &.item-wrapper-mobile {
+      @media #{$gl-sm-only} {
+        .portfolio-img {
+          height: 100%; 
+          overflow: hidden;
+        
+          img {
+            height: 100%;
+            width: auto;
+            right: 45%;
+            position: relative;  
+          }
+        }
+      }
     }
     
     &:last-child {
@@ -92,10 +108,10 @@
         color: $color-text-dark;
         
         .icon {
-          color: $color-text-white;
+          color: $_color-gray;
           
           .fa {
-            font-size: 24px;
+            font-size: 20px;
             font-weight: bold;
             margin: 0 3px 10px;
           }
@@ -105,19 +121,22 @@
         .skills {
           font-weight: 700;
           text-transform: uppercase;
-          font-size: 16px;
+          font-size: 14px;
           letter-spacing: 1px;
-          margin: 7px 0;
+          margin: 0 0 5px;
         }
         
         .description {
           text-transform: uppercase;
           font-weight: 300;
-          font-size: 25px;
+          font-size: 20px;
+          margin-bottom: 15px;
+          margin-top: 2px;
         }
         
         .language {
           font-size: 16px;
+          line-height: 20px;
         }
       }
     }

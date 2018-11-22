@@ -1,0 +1,48 @@
+#resume .content {
+  padding-top: 0; }
+
+#resume .column-wrapper .column {
+  text-align: left; }
+  #resume .column-wrapper .column .column-title {
+    padding: 12.5px 25px;
+    margin-bottom: 15px;
+    text-align: center;
+    background-color: #e8e3e3;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center; }
+    #resume .column-wrapper .column .column-title h3 {
+      margin-left: 10px;
+      margin-top: 5px; }
+  #resume .column-wrapper .column .column-tile {
+    padding: 25px;
+    margin-bottom: 15px;
+    background-color: #f5f3f3;
+    border-top: 8px solid #5C9EAD; }
+    #resume .column-wrapper .column .column-tile:last-child {
+      margin-bottom: 0; }
+    @media screen and (min-width: 0) and (max-width: 48em) {
+      #resume .column-wrapper .column .column-tile {
+        min-height: 0; } }
+    #resume .column-wrapper .column .column-tile .column-tile-institution {
+      font-size: 20px;
+      font-weight: 700;
+      text-transform: uppercase; }
+    #resume .column-wrapper .column .column-tile .column-tile-title,
+    #resume .column-wrapper .column .column-tile .column-tile-date {
+      font-size: 18px;
+      font-weight: 300;
+      margin-top: 3px; }
+    #resume .column-wrapper .column .column-tile .column-tile-description {
+      margin-top: 15px;
+      line-height: 19px; }
+      #resume .column-wrapper .column .column-tile .column-tile-description ul {
+        padding-left: 12.5px; }
+  @media screen and (min-width: 0) and (max-width: 48em) {
+    #resume .column-wrapper .column:first-child {
+      margin-bottom: 25px; } }
+  #resume .column-wrapper .column:first-child .column-title > div {
+    background-color: #DEBAC0; }
+  #resume .column-wrapper .column:first-child .column-tile {
+    border-top-color: #DEBAC0; }
