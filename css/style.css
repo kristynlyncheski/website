@@ -982,6 +982,8 @@ h5 {
       text-align: center;
       margin-top: 12.5px;
       margin-bottom: 25px; }
+    #services .row-wrapper .square .square-content .square-description {
+      text-align: center; }
   #services .row-wrapper .square:first-child .square-content, #services .row-wrapper .square:nth-child(2) .square-content, #services .row-wrapper .square:nth-child(3) .square-content {
     border-top-color: #DEBAC0; }
     #services .row-wrapper .square:first-child .square-content .icon-wrapper, #services .row-wrapper .square:nth-child(2) .square-content .icon-wrapper, #services .row-wrapper .square:nth-child(3) .square-content .icon-wrapper {
