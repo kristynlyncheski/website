@@ -3,6 +3,9 @@
 footer {
   
   .grid-middle {
+    margin-left: 0;
+    margin-right: 0;
+    
     & > div {
       padding: ($spacing-small - 10px) $spacing-big;
     }

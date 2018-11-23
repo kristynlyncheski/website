@@ -1,5 +1,8 @@
-footer .grid-middle > div {
-  padding: 15px 50px; }
+footer .grid-middle {
+  margin-left: 0;
+  margin-right: 0; }
+  footer .grid-middle > div {
+    padding: 15px 50px; }
 
 footer .copyright {
   font-size: 14px;
