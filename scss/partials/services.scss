@@ -8,13 +8,13 @@
       .square-content {
         padding: $spacing-small $spacing-small $spacing-big;
         background-color: $_color-gray;
-        border-top: 8px solid $_color-blue;
+        border-top: 8px solid $color-accent;
         height: 100%;
-        
+
         @media #{$gl-xs-only} {
           padding-bottom: $spacing-small + 5;
         }
-        
+
         .icon-wrapper {
           margin: 0 auto;
         }
@@ -24,7 +24,7 @@
           margin-top: $spacing-small / 2;
           margin-bottom: $spacing-small;
         }
-        
+
         .square-description {
           text-align: center;
         }
@@ -34,10 +34,10 @@
       &:nth-child(2),
       &:nth-child(3) {
         .square-content {
-          border-top-color: $_color-pink;
-          
+          border-top-color: $color-accent;
+
           .icon-wrapper {
-            background-color: $_color-pink;
+            background-color: $color-accent;
           }
         }
       }

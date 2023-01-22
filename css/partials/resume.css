@@ -19,7 +19,7 @@
     padding: 25px;
     margin-bottom: 15px;
     background-color: #f5f3f3;
-    border-top: 8px solid #5C9EAD; }
+    border-top: 8px solid #7CD1CE; }
     #resume .column-wrapper .column .column-tile:last-child {
       margin-bottom: 0; }
     @media screen and (min-width: 0) and (max-width: 48em) {
@@ -43,6 +43,6 @@
     #resume .column-wrapper .column:first-child {
       margin-bottom: 25px; } }
   #resume .column-wrapper .column:first-child .column-title > div {
-    background-color: #DEBAC0; }
+    background-color: #7CD1CE; }
   #resume .column-wrapper .column:first-child .column-tile {
-    border-top-color: #DEBAC0; }
+    border-top-color: #7CD1CE; }

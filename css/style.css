@@ -620,51 +620,53 @@ html, body {
     margin-right: 100%; } }
 
 body {
-  font-family: "Josefin Sans", sans-serif;
-  color: #090909;
+  font-family: "Lato", sans-serif;
+  color: #423E3E;
   font-size: 16px;
   font-weight: 400;
   -webkit-font-smoothing: antialiased; }
 
 h1 {
-  color: #090909;
-  font-family: "Francois One", sans-serif;
+  color: #423E3E;
+  font-family: "Lilita One", sans-serif;
   font-weight: 400;
   font-size: 60px;
   margin: 0;
   text-transform: uppercase; }
 
 h2 {
-  color: #090909;
-  font-family: "Francois One", sans-serif;
+  color: #423E3E;
+  font-family: "Lilita One", sans-serif;
   font-weight: 400;
   font-size: 40px;
   margin: 0;
   text-transform: uppercase; }
 
 h3 {
-  color: #090909;
-  font-family: "Josefin Sans", sans-serif;
+  color: #423E3E;
+  font-family: "Lato", sans-serif;
   font-weight: 300;
   font-size: 25px;
   margin: 0;
   text-transform: uppercase; }
 
 h4 {
-  color: #090909;
-  font-family: "Josefin Sans", sans-serif;
+  color: #423E3E;
+  font-family: "Lato", sans-serif;
   font-weight: 400;
   font-size: 20px;
-  margin: 0; }
+  letter-spacing: 2px;
+  margin: 0;
+  text-transform: uppercase; }
 
 h5 {
-  color: #090909;
-  font-family: "Josefin Sans", sans-serif;
+  color: #423E3E;
+  font-family: "Lilita One", sans-serif;
   font-weight: 700;
   font-size: 16px;
   margin: 0;
   text-transform: uppercase;
-  letter-spacing: 0.5px; }
+  letter-spacing: 2px; }
 
 .container .content {
   max-width: 1440px;
@@ -690,7 +692,7 @@ h5 {
 
 .icon-wrapper {
   margin-right: 10px;
-  background-color: #5C9EAD;
+  background-color: #7CD1CE;
   width: 50px;
   max-width: 50px;
   min-width: 50px;
@@ -702,12 +704,12 @@ h5 {
   justify-content: center;
   align-items: center; }
   .icon-wrapper i {
-    color: #faf9f9;
+    color: #fff;
     font-size: 25px; }
 
 #hero {
   background-image: url("../img/hero.jpg");
-  background-color: #DEBAC0;
+  background-color: #e8e3e3;
   background-position: center bottom;
   background-repeat: no-repeat;
   background-size: cover; }
@@ -719,41 +721,26 @@ h5 {
       #hero .content {
         padding-top: 25px; } }
     #hero .content .hero-box {
-      background-color: #faf9f9;
+      background-color: #7CD1CE;
       padding: 50px;
-      text-align: center;
+      text-align: left;
       display: inline-block; }
       @media screen and (min-width: 0) and (max-width: 48em) {
         #hero .content .hero-box {
           padding: 30px; } }
       #hero .content .hero-box h1 {
-        margin-bottom: 25px;
-        letter-spacing: 8px;
+        margin-bottom: 10px;
         line-height: 72px; }
         @media screen and (min-width: 0) and (max-width: 48em) {
           #hero .content .hero-box h1 {
             font-size: 40px;
             letter-spacing: 5px;
             line-height: 48px; } }
-        #hero .content .hero-box h1 .i {
-          position: relative; }
-        #hero .content .hero-box h1 .idot {
-          width: 12px;
-          height: 12px;
-          border-radius: 50%;
-          background-color: #090909;
-          position: absolute;
-          top: 4px;
-          left: -2px; }
-          @media screen and (min-width: 0) and (max-width: 48em) {
-            #hero .content .hero-box h1 .idot {
-              width: 8px;
-              height: 8px;
-              top: 3px;
-              left: -1px; } }
-      @media screen and (min-width: 0) and (max-width: 48em) {
-        #hero .content .hero-box h4 {
-          font-size: 16px; } }
+      #hero .content .hero-box h4 {
+        color: #fff; }
+        @media screen and (min-width: 0) and (max-width: 48em) {
+          #hero .content .hero-box h4 {
+            font-size: 16px; } }
 
 #about .column-wrapper {
   background-color: #e8e3e3; }
@@ -764,11 +751,11 @@ h5 {
       #about .column-wrapper .column {
         padding: 25px; } }
     #about .column-wrapper .column a {
-      color: #090909;
+      color: #423E3E;
       text-decoration: none; }
       #about .column-wrapper .column a:hover {
         text-decoration: underline;
-        color: #5C9EAD; }
+        color: #7CD1CE; }
     #about .column-wrapper .column:nth-child(2) {
       background-image: url("../img/kristyn-lyncheski.png");
       background-position: center;
@@ -801,9 +788,9 @@ h5 {
     margin-bottom: 0; }
 
 #about .skills-content .about-category h5 {
-  background-color: #faf9f9;
+  background-color: #fff;
   padding: 12px 20px 10px;
-  border-left: 8px solid #5C9EAD; }
+  border-left: 8px solid #7CD1CE; }
 
 #about .skills-content .about-category .about-skills {
   margin: 12.5px 0 15px 0;
@@ -851,7 +838,7 @@ h5 {
     padding: 25px;
     margin-bottom: 15px;
     background-color: #f5f3f3;
-    border-top: 8px solid #5C9EAD; }
+    border-top: 8px solid #7CD1CE; }
     #resume .column-wrapper .column .column-tile:last-child {
       margin-bottom: 0; }
     @media screen and (min-width: 0) and (max-width: 48em) {
@@ -875,9 +862,9 @@ h5 {
     #resume .column-wrapper .column:first-child {
       margin-bottom: 25px; } }
   #resume .column-wrapper .column:first-child .column-title > div {
-    background-color: #DEBAC0; }
+    background-color: #7CD1CE; }
   #resume .column-wrapper .column:first-child .column-tile {
-    border-top-color: #DEBAC0; }
+    border-top-color: #7CD1CE; }
 
 #portfolio {
   background-color: #e8e3e3; }
@@ -887,14 +874,14 @@ h5 {
     margin: 0; }
   #portfolio .portfolio-content > .grid .first-column .item-wrapper:first-child .rollover .rollover-content, #portfolio .portfolio-content > .grid .first-column .item-wrapper:nth-child(2) .rollover .rollover-content {
     background-color: rgba(65, 144, 166, 0.96);
-    color: #faf9f9; }
+    color: #fff; }
   @media screen and (min-width: 0) and (max-width: 48em) {
     #portfolio .portfolio-content > .grid .second-column {
       overflow: hidden;
       margin-bottom: 10px !important; } }
   #portfolio .portfolio-content > .grid .second-column .item-wrapper:nth-child(2) .rollover .rollover-content {
     background-color: rgba(65, 144, 166, 0.96);
-    color: #faf9f9; }
+    color: #fff; }
   #portfolio .grid.col, #portfolio .grid[class*="col-"] {
     padding-left: 10px;
     padding-right: 10px;
@@ -940,7 +927,7 @@ h5 {
         text-align: center;
         background-color: rgba(222, 186, 192, 0.96);
         padding: 25px;
-        color: #090909; }
+        color: #423E3E; }
         #portfolio .item-wrapper .rollover .rollover-content .icon {
           color: #e8e3e3; }
           #portfolio .item-wrapper .rollover .rollover-content .icon .fa {
@@ -971,7 +958,7 @@ h5 {
   #services .row-wrapper .square .square-content {
     padding: 25px 25px 50px;
     background-color: #e8e3e3;
-    border-top: 8px solid #5C9EAD;
+    border-top: 8px solid #7CD1CE;
     height: 100%; }
     @media screen and (max-width: 30em) {
       #services .row-wrapper .square .square-content {
@@ -985,9 +972,9 @@ h5 {
     #services .row-wrapper .square .square-content .square-description {
       text-align: center; }
   #services .row-wrapper .square:first-child .square-content, #services .row-wrapper .square:nth-child(2) .square-content, #services .row-wrapper .square:nth-child(3) .square-content {
-    border-top-color: #DEBAC0; }
+    border-top-color: #7CD1CE; }
     #services .row-wrapper .square:first-child .square-content .icon-wrapper, #services .row-wrapper .square:nth-child(2) .square-content .icon-wrapper, #services .row-wrapper .square:nth-child(3) .square-content .icon-wrapper {
-      background-color: #DEBAC0; }
+      background-color: #7CD1CE; }
   @media screen and (min-width: 48.0625em) {
     #services .row-wrapper .square:nth-child(4) {
       margin-bottom: 0; } }
@@ -1003,22 +990,23 @@ h5 {
 
 /* TYPEFORM */
 .screen .content-wrapper .content .text {
-  font-family: "Josefin Sans", sans-serif !important; }
+  font-family: "Lato", sans-serif !important; }
 
-footer .grid-middle {
-  margin-left: 0;
-  margin-right: 0; }
-  footer .grid-middle > div {
-    padding: 15px 50px; }
-
-footer .copyright {
-  font-size: 14px;
-  text-transform: uppercase;
-  font-weight: 700; }
-
-footer .social-links {
-  text-align: right; }
-  footer .social-links a {
-    color: #e8e3e3; }
-  footer .social-links .fa {
-    font-size: 2.5em; }
+footer {
+  background-color: #e8e3e3; }
+  footer .grid-middle {
+    margin-left: 0;
+    margin-right: 0; }
+    footer .grid-middle > div {
+      padding: 15px 50px; }
+  footer .copyright {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700; }
+  footer .social-links {
+    text-align: right; }
+    footer .social-links a {
+      color: #fff;
+      margin-left: 5px; }
+    footer .social-links .fa {
+      font-size: 2.5em; }

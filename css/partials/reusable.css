@@ -1,6 +1,6 @@
 .icon-wrapper {
   margin-right: 10px;
-  background-color: #5C9EAD;
+  background-color: #7CD1CE;
   width: 50px;
   max-width: 50px;
   min-width: 50px;
@@ -12,5 +12,5 @@
   justify-content: center;
   align-items: center; }
   .icon-wrapper i {
-    color: #faf9f9;
+    color: #fff;
     font-size: 25px; }

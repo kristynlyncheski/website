@@ -3,7 +3,7 @@
   #services .row-wrapper .square .square-content {
     padding: 25px 25px 50px;
     background-color: #e8e3e3;
-    border-top: 8px solid #5C9EAD;
+    border-top: 8px solid #7CD1CE;
     height: 100%; }
     @media screen and (max-width: 30em) {
       #services .row-wrapper .square .square-content {
@@ -17,9 +17,9 @@
     #services .row-wrapper .square .square-content .square-description {
       text-align: center; }
   #services .row-wrapper .square:first-child .square-content, #services .row-wrapper .square:nth-child(2) .square-content, #services .row-wrapper .square:nth-child(3) .square-content {
-    border-top-color: #DEBAC0; }
+    border-top-color: #7CD1CE; }
     #services .row-wrapper .square:first-child .square-content .icon-wrapper, #services .row-wrapper .square:nth-child(2) .square-content .icon-wrapper, #services .row-wrapper .square:nth-child(3) .square-content .icon-wrapper {
-      background-color: #DEBAC0; }
+      background-color: #7CD1CE; }
   @media screen and (min-width: 48.0625em) {
     #services .row-wrapper .square:nth-child(4) {
       margin-bottom: 0; } }

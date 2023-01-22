@@ -1,41 +1,35 @@
 @import './functions';
 
 // fonts
-$font-heading: 'Francois One', sans-serif;
-$font-primary: 'Josefin Sans', sans-serif;
+$font-heading: 'Lilita One', sans-serif;
+$font-primary: 'Lato', sans-serif;
 
 //****************************************
 //  INTERNAL  PALETTE (Descriptive)
 //****************************************
 
-$_color-white: #faf9f9;
+$_color-white: #fff;
 $_color-gray: #e8e3e3;
-$_color-pink: #DEBAC0;
-$_color-blue: #5C9EAD;
-$_color-black: #090909;
-
+$_color-black: #423E3E;
+$_color-green: #7CD1CE;
+$_color-brown: #423E3E;
 $_color-light-gray: #f5f3f3;
 
 //****************************************
 //  EXTERNAL COLOR PALETTE (Semantic)
 //****************************************
-//
-// $color-background-dark: $_color-gray-dark;
-// $color-background-gray: $_color-gray-medium;
-// $color-background-white: $_color-white;
-// $color-background-green: $_color-green-medium;
-//
-// $color-background-sidebar: $_color-gray-light;
-//
+
+$color-accent: $_color-green;
+$color-header: $_color-brown;
+
 $color-text-dark: $_color-black;
 $color-text-white: $_color-white;
-//
-// $color-border-dark: $_color-gray-dark;
 
 
 // spacing
 $spacing-big: 50px;
 $spacing-small: $spacing-big / 2;
+$spacing-extra-small: 10px;
 
 
 
