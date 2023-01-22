@@ -2,7 +2,7 @@
 
 #hero {
   background-image: url('../img/hero.jpg');
-  background-color: $_color-pink;
+  background-color: $_color-gray;
   background-position: center bottom;
   background-repeat: no-repeat;
   background-size: cover;
@@ -11,56 +11,35 @@
     text-align: left;
     padding-top: $spacing-big * 1.5;
     padding-bottom: $spacing-big * 3;
-    
+
     @media #{$gl-xs-sm} {
       padding-top: $spacing-small;
     }
 
     .hero-box {
-      background-color: $_color-white;
+      background-color: $color-accent;
       padding: $spacing-big;
-      text-align: center;
+      text-align: left;
       display: inline-block;
-      
+
       @media #{$gl-xs-sm} {
         padding: $spacing-small + 5;
       }
 
       h1 {
-        margin-bottom: $spacing-small;
-        letter-spacing: 8px;
+        margin-bottom: $spacing-extra-small;
         line-height: 72px;
-        // position: relative;
-        
+
         @media #{$gl-xs-sm} {
           font-size: 40px;
           letter-spacing: 5px;
           line-height: 48px;
         }
-        
-        .i {
-          position: relative;
-        }
-
-        .idot {
-          width: 12px;
-          height: 12px;
-          border-radius: 50%;
-          background-color: $color-text-dark;
-          position: absolute;
-          top: 4px;
-          left: -2px;
-          
-          @media #{$gl-xs-sm} {
-            width: 8px;
-            height: 8px;
-            top: 3px;
-            left: -1px;
-          }
-        }
       }
 
       h4 {
+        color: $color-text-white;
+
         @media #{$gl-xs-sm} {
           font-size: 16px;
         }

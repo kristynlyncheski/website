@@ -7,11 +7,11 @@
       #about .column-wrapper .column {
         padding: 25px; } }
     #about .column-wrapper .column a {
-      color: #090909;
+      color: #423E3E;
       text-decoration: none; }
       #about .column-wrapper .column a:hover {
         text-decoration: underline;
-        color: #5C9EAD; }
+        color: #7CD1CE; }
     #about .column-wrapper .column:nth-child(2) {
       background-image: url("../img/kristyn-lyncheski.png");
       background-position: center;
@@ -44,9 +44,9 @@
     margin-bottom: 0; }
 
 #about .skills-content .about-category h5 {
-  background-color: #faf9f9;
+  background-color: #fff;
   padding: 12px 20px 10px;
-  border-left: 8px solid #5C9EAD; }
+  border-left: 8px solid #7CD1CE; }
 
 #about .skills-content .about-category .about-skills {
   margin: 12.5px 0 15px 0;

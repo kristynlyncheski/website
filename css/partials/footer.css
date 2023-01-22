@@ -1,17 +1,18 @@
-footer .grid-middle {
-  margin-left: 0;
-  margin-right: 0; }
-  footer .grid-middle > div {
-    padding: 15px 50px; }
-
-footer .copyright {
-  font-size: 14px;
-  text-transform: uppercase;
-  font-weight: 700; }
-
-footer .social-links {
-  text-align: right; }
-  footer .social-links a {
-    color: #e8e3e3; }
-  footer .social-links .fa {
-    font-size: 2.5em; }
+footer {
+  background-color: #e8e3e3; }
+  footer .grid-middle {
+    margin-left: 0;
+    margin-right: 0; }
+    footer .grid-middle > div {
+      padding: 15px 50px; }
+  footer .copyright {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700; }
+  footer .social-links {
+    text-align: right; }
+    footer .social-links a {
+      color: #fff;
+      margin-left: 5px; }
+    footer .social-links .fa {
+      font-size: 2.5em; }

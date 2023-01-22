@@ -9,7 +9,7 @@ body {
 }
 
 h1 {
-  color: $color-text-dark;
+  color: $color-header;
   font-family: $font-heading;
   font-weight: 400;
   font-size: 60px;
@@ -18,7 +18,7 @@ h1 {
 }
 
 h2 {
-  color: $color-text-dark;
+  color: $color-header;
   font-family: $font-heading;
   font-weight: 400;
   font-size: 40px;
@@ -27,7 +27,7 @@ h2 {
 }
 
 h3 {
-  color: $color-text-dark;
+  color: $color-header;
   font-family: $font-primary;
   font-weight: 300;
   font-size: 25px;
@@ -36,19 +36,21 @@ h3 {
 }
 
 h4 {
-  color: $color-text-dark;
+  color: $color-header;
   font-family: $font-primary;
   font-weight: 400;
   font-size: 20px;
+  letter-spacing: 2px;
   margin: 0;
+  text-transform: uppercase;
 }
 
 h5 {
-  color: $color-text-dark;
-  font-family: $font-primary;
+  color: $color-header;
+  font-family: $font-heading;
   font-weight: 700;
   font-size: 16px;
   margin: 0;
   text-transform: uppercase;
-  letter-spacing: 0.5px;
+  letter-spacing: 2px;
 }

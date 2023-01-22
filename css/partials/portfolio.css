@@ -6,14 +6,14 @@
     margin: 0; }
   #portfolio .portfolio-content > .grid .first-column .item-wrapper:first-child .rollover .rollover-content, #portfolio .portfolio-content > .grid .first-column .item-wrapper:nth-child(2) .rollover .rollover-content {
     background-color: rgba(65, 144, 166, 0.96);
-    color: #faf9f9; }
+    color: #fff; }
   @media screen and (min-width: 0) and (max-width: 48em) {
     #portfolio .portfolio-content > .grid .second-column {
       overflow: hidden;
       margin-bottom: 10px !important; } }
   #portfolio .portfolio-content > .grid .second-column .item-wrapper:nth-child(2) .rollover .rollover-content {
     background-color: rgba(65, 144, 166, 0.96);
-    color: #faf9f9; }
+    color: #fff; }
   #portfolio .grid.col, #portfolio .grid[class*="col-"] {
     padding-left: 10px;
     padding-right: 10px;
@@ -59,7 +59,7 @@
         text-align: center;
         background-color: rgba(222, 186, 192, 0.96);
         padding: 25px;
-        color: #090909; }
+        color: #423E3E; }
         #portfolio .item-wrapper .rollover .rollover-content .icon {
           color: #e8e3e3; }
           #portfolio .item-wrapper .rollover .rollover-content .icon .fa {

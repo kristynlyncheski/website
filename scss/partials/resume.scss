@@ -4,7 +4,7 @@
   .content {
     padding-top: 0;
   }
-  
+
   .column-wrapper {
     .column {
       text-align: left;
@@ -35,12 +35,12 @@
         }
 
         background-color: $_color-light-gray;
-        border-top: 8px solid $_color-blue;
-        
+        border-top: 8px solid $color-accent;
+
         @media #{$gl-xs-sm} {
           min-height: 0;
         }
-        
+
         .column-tile-institution {
           font-size: 20px;
           font-weight: 700;
@@ -57,7 +57,7 @@
         .column-tile-description {
           margin-top: $spacing-small - 10px;
           line-height: 19px;
-          
+
           ul {
             padding-left: $spacing-small / 2;
           }
@@ -71,12 +71,12 @@
 
         .column-title {
           & > div {
-            background-color: $_color-pink;
+            background-color: $color-accent;
           }
         }
 
         .column-tile {
-          border-top-color: $_color-pink;
+          border-top-color: $color-accent;
         }
       }
     }
